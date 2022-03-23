@@ -11,5 +11,6 @@ install:
     - python setup.py install
     - pip install -U setuptools wheel 
     - pip install -r other-requirements.txt
+    - pip install tox
 script:
     - tox -e py38
